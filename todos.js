@@ -48,24 +48,24 @@ $(".fa-plus").on("click",function(){
 
 
 $(document).ready(function(){
-var header = $('body');
+// var header = $('body');
 
-var backgrounds = new Array(
-    'url(bryan-minear-317365.jpg)'
-  , 'url(danka-peter-148724.jpg)',
-  'url(lucas-alexander-15980.jpg)'
-);
+// var backgrounds = new Array(
+//     'url(bryan-minear-317365.jpg)'
+//   , 'url(danka-peter-148724.jpg)',
+//   'url(lucas-alexander-15980.jpg)'
+// );
 
-var current = 0;
+// var current = 0;
 
-function nextBackground() {
-    current++;
-    current = current % backgrounds.length;
-    header.css('background-image', backgrounds[current]);
-}
-setInterval(nextBackground, 3000);
+// function nextBackground() {
+//     current++;
+//     current = current % backgrounds.length;
+//     header.css('background-image', backgrounds[current]);
+// }
+// setInterval(nextBackground, 3000);
 
-header.css('background-image', backgrounds[1]);
+// header.css('background-image', backgrounds[1]);
 });
 
 /*$(document).ready( function(){
